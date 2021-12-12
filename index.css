@@ -1,0 +1,50 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    /* background-color: rgb(240, 142, 142); */
+}
+.wrapper{
+    background-color: lightblue;
+    width: 35vw;
+    margin: 8em auto;
+    padding: 1.5em 3em 3em ;
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+#task{
+    border: none;
+    height: 2em;
+    width: 20em;
+    padding: .5em;
+    font-size: 16;
+    border-radius: 5px;
+}
+#add_task_button{
+    border: none;
+    height: 2em;
+    padding: 0 1em;
+    font-size: 16;
+    border-radius: 3px;
+    color: blue;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+
+ul li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+ul button{
+    margin: 3px 10px;
+    background-color:white ;
+    border: none;
+    color: blue;
+    padding: 0em .5em;
+}
